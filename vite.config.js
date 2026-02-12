@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [
     react(),
     svgr({
-      // This ensures ?react suffix works
       svgrOptions: { icon: true },
     }),
   ],
